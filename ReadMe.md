@@ -1,0 +1,1 @@
+A countdown timer to January 1st, 2021 made with vanilla javascript, HTML and CSS.
