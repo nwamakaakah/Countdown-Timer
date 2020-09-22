@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: bisque;
+}
+
+.box{
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.days, .hours, .minutes, .seconds{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-weight: bold;
+    font-size: larger;
+}
